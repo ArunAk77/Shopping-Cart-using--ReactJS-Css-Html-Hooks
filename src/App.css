@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-image: url(https://cdn.pixabay.com/photo/2022/07/23/16/05/shopping-mall-7340181_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #000000;
+  font-size: x-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  letter-spacing: 1px;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.Section{
+  background-color: #ffffff00;
+  border-radius: 20px;
+  width: fit-content;
+  height: fit-content;
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/21/20/47/shopping-2163323_1280.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+ul li {
+  background: #d4bcbc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  scale: 0.9;
+  transition: all 0.5s;
+  background-color: #fff;
+  background-attachment: fixed;
+  background-size: cover;
+}
+ul li:hover{
+    border: 2px solid black;
+  box-shadow: -6px 10px 10px black;
+  transition: all 0.5s;
+  scale: 1;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  border-radius: 10px;
+  scale: 0.98;
+}
+
+button:hover {
+  scale: 1;
+  transition: all 0.4s;
+  box-shadow: -2px 3px 4px black;
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+h3 {
+  text-align: right;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: x-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  letter-spacing: 1px;
+}
+
+.products ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products button {
+  background-color: #28a745;
+  margin-left: 10px;
+  scale: 0.98;
+  transition: all 0.4s;
+}
+
+.products button:hover {
+  background-color: #218838;
+  scale: 1;
+  transition: all 0.4s;
+  box-shadow: -2px 3px 4px black;
+}
+#total{
+  margin: 0PX 150px;
+}
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
